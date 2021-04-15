@@ -1,5 +1,3 @@
-<script>
-  
     $.urlParam = function (name) {
       var results = new RegExp('[\?&]' + name + '=([^&#]*)')
                         .exec(window.location.search);
@@ -49,6 +47,3 @@
       var score = $.checkForScoreField();
       var newScore = $.addToScoreField(5);
     });
-  
-  </script>
-  
