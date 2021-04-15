@@ -2,4 +2,4 @@ $(document).ready(function() {
   alert( "hello");
 });
 
-alert('now');
+alert('here');
